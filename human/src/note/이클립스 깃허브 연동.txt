@@ -1,0 +1,143 @@
+이클립스 X 깃허브 연동
+
+1. github.com
+2. 회원가입
+3. 로그인
+4. Create Repository (New)
+5. Repository 이름 입력
+6. Pubilc / Private 선택
+7. ReamMe.md 체크
+8. Create Repository
+
+9. 이클립스 실행
+10. Open Perspective - Git
+11. Clone a Git Repository
+12. URL / ID / 토큰  입력
+    - 보안 토큰
+    > 프로필 > Settings
+    > Developer settings
+    > Persnal access tokens
+    > Tokens
+    > Generate new token
+    > 선택 : repo, delete_repo 체크
+    > Generate token
+    > 암호 :  XXXXXXXXXXXXX 복사하여 보관
+
+13. 프로젝트 우클릭
+     > Team > Share Project
+
+14. Window 
+    > Show Menu
+    > Git Staging
+
+15. Git Staging 
+    -공유한 프로젝트의 변경사항 확인
+    -원격저장소에 업로드할 파일 지정
+
+16. Commit : 변경사항 적용
+     Push	   : 변경사항 업로드
+     Pull	   :  변경사항 다운로드
+
+
+▶깃허브 원격 저장소 삭제
+
+1. 원격저장소 URL 위치
+2. Settings > General > 맨아래
+3. Danger Zone
+4. Delete Repository
+  
+
+▶집에서 연동하기
+
+1. 깃허브 로그인
+2. 원격저장소 URL 복사
+3. 이클립스
+4. Open Perspective > Git
+5. Clone a Git Repository
+6. URL 자동입력됨, 
+   ID 입력
+   PW 에는 토큰 입력
+7. next > next > finish
+8. 저장소 생성됨
+   > 저장소 아래 > Working Tree
+   > human(프로젝트) > 우클릭
+9. Import Project
+10. Open Perspective > Java
+11. 프로젝트 import 성공
+
+
+▶학원에서 코드 업로드
+1. Git Staging 탭
+2. Unstaged Changes 영역의 파일 중
+    업로드할 파일을 
+   Statged Changes 영역으로 드래그
+
+3. Commit Message 를 필수로 작성
+4. Commit and Push
+
+
+▶집에서 학원 코드 다운로드
+
+1. 프로젝트 우클릭
+2. Team
+3. Pull
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+  

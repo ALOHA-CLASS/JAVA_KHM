@@ -1,0 +1,84 @@
+
+ Wrapper 클래스
+  : 자바 기본타입 8개를 클래스로 만든 것
+	기본타입		클래스
+	- byte 		Byte
+	- short		Short
+	- int		Integer
+	- long		Long
+	- char		Character
+	- float		Float
+	- double		Double
+	- boolean	Boolean
+
+   필요성 : 객체만을 요소 사용하는 컬렉션 등의 구조에서
+	   기본타입을 사용하기 위해 
+    
+
+
+   박싱
+    : 기본 타입의 값을 Wrapper 객체로 변환하는 것
+	Integer i  = new Integer(10);
+             Integer i = 10;		// 자동 박싱
+
+   언박싱
+    : Wrapper 객체 안에 들어 있는 기본타입의 값을 가져오는 것
+	int a = i.intValue();
+	int a = i;			// 자동 언박싱
+
+   자동 박싱, 자동 언박싱
+    Integer ten = 10;     // 기본타입 10이 자동으로 객체로 생성
+    int n  = ten;	      // 10을 갖는 객체에서 자동으로 기본타입 10을 추출
+
+
+   ▶Wrapper 객체를 기본타입으로 변환하는 메소드
+
+      * 객체.(기본타입)Value( );
+      obj.byteValue( );
+      obj.charValue( );
+      obj.shortValue( );
+      obj.intValue( );
+      obj.longValue( );
+      obj.floatValue( );
+      obj.doubleValue( );
+      obj.booleanValue( );
+
+
+   ▶문자열을 기본타입으로 변환하는 메소드
+
+     * 래퍼클래스.parse기본타입("문자열");
+
+     Byte.parseByte("10");	
+     Short.parseShort("100");
+     Integer.parseInt("1000");
+     Long.parseLong("10000");
+     Float.parseFloat("1.25F");
+     Double.parseDouble("3.14");
+     Boolean.parseBoolean("true");
+
+     
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

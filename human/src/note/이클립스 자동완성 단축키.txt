@@ -1,0 +1,7 @@
+
+자동완성 단축키 만들기
+Window > Preference
+   > Java
+   > Editor
+   > Templates
+      > New 

@@ -1,0 +1,60 @@
+컬렉션
+
+▶인터페이스
+Collection 
+	ㄴ  List	: 순서를 유지하고 저장, 중복가능
+	ㄴ  Set	: 순서없이 저장	    , 중복불가
+
+Map	: 키와 값을 쌍으로 저장
+	  -키 : 요소 구분하는 고유한 값 (중복불가)
+	  -값 : 객체
+
+▶구현 클래스
+
+List 	:   Vector<-Stack, ArrayList, LinkedList
+Set	:   HashSet, TreeSet
+Map	:   HashMap, Hashtable, TreeMap, Properties
+
+
+▶자료구조
+
+배열		: 같은 자료형인 여러 데이터를 저장하는 정적 자료구조
+
+연결리스트	: 데이터와 포인터로 이루어진 노드들이 연결되어 있는 동적 자료구조
+
+
+스택		: 한 쪽 방향에서만 데이터를 추가/삭제하는 자료구조
+		  후입선출, (Last In Frist Out) : L.I.FO
+	                예시)  Ctrl + Z(되돌리기), 후위표기(Postfix), 인터럽트
+	
+
+			
+큐		: 한쪽 방향으로 데이터를 추가하고 반대 방향에서 데이터를 삭제하는 자료구조
+		  선입선출, (First In First Out) : F.I.F.O
+		  예시) 줄서기
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

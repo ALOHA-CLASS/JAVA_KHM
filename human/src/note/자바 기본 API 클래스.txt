@@ -1,0 +1,57 @@
+
+  자바 기본 API 클래스
+
+   -자바 API 도큐먼트
+     : 자바 API 사용가이드 문서
+      구글 검색 :  "java 8 api"
+      https://docs.oracle.com/javase/8/docs/api/
+       좌측 상단 : 패키지 목록
+       좌측 하단 : 클래스 목록
+       우측 중앙 : 선택한 클래스 설명
+
+  - 주요 패키지
+     * java.lang 	: 기본 핵심 클래스 모아놓은 패키지, import 없이 사용가능
+     		  Object, System, Class, StringBuffer, StringBuilder, Math, Wrapper
+
+    * java.util	:  배열, 날짜/시간, 구분문자열, 난수 등을 활용한 클래스가 있는 패키지
+		  Arrays, Calendar, Date, Objects, StringTokenizer, Random
+
+  
+  - 주요 클래스
+	Wrapper
+	Math
+	Arrays
+	Calendar
+	Date
+	java.time   	- LocalDate, LocalTime, LocalDateTime, ZonedDateTime, Instant
+	StringBuffer
+	StringBuilder
+	StringTokenizer
+	Random
+	Format 		- DeciamalFormat, SimpleDateFormat, MessageFormat
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
