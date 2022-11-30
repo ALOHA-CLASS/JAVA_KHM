@@ -15,7 +15,7 @@ public class JDBConnection {
 	
 	// 기본 생성자
 	public JDBConnection() {
-		
+		  
 		try {
 			// JDBC 드라이버 로드
 			// MySQL
