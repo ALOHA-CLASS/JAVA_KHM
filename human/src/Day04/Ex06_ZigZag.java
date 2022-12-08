@@ -23,15 +23,18 @@ public class Ex06_ZigZag {
 		int k = 1;		// 증가하는 수
 		int sw = 1;		// 방향 전환 수
 		for (int i = 0; i < N; i++) {
+			
 			// sw : 1   --> 정방향
 			if( sw == 1 ) {
 				for (int j = 0; j < N; j++) {
+					System.out.println("i : " + i + ", j : " + j + ", k : " + k);
 					arr[i][j] = k++;
 				}
 			}
 			// sw : -1  --> 역방향
 			if( sw == -1 ) {
 				for (int j = N-1; j >= 0; j--) {
+					System.out.println("i : " + i + ", j : " + j + ", k : " + k);
 					arr[i][j] = k++;
 				}
 			}

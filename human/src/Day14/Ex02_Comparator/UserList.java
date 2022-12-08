@@ -31,7 +31,7 @@ public class UserList {
 		userList.add(u10);
 
 		// Collections.sort( 리스트, Comparator 구현객체 );
-		// - 오바라이딩한 compare 메소드의 기준에 따라서 정렬된다
+		// - 오버라이딩한 compare 메소드의 기준에 따라서 정렬된다
 		Collections.sort(userList, new User());
 		
 		for (User user : userList) {

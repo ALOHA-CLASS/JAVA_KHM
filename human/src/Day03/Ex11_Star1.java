@@ -23,8 +23,10 @@ public class Ex11_Star1 {
 				// i : 4, j : 1 2 3 4
 				// i : 5, j : 1 2 3 4 5
 				System.out.print("*");
+			
 			}
 			System.out.println();
+			
 		}
 		
 		
