@@ -74,7 +74,7 @@ public class VectorEx {
 				System.out.println("메뉴 이름 : " + item);
 			}
 		} else {
-			System.out.println("매뉴가 없습니다.");
+			System.out.println("메뉴가 없습니다.");
 		}
 		
 		Scanner sc = new Scanner(System.in);
@@ -95,7 +95,7 @@ public class VectorEx {
 		
 		// 반복 방법 3
 		// Iterator 를 이용한 반복
-		// 해당 리스트 컬렉션을부터 Iterator 객체를 가져옴
+		// 해당 리스트 컬렉션으로부터 Iterator 객체를 가져옴
 		System.out.println(">>반복 3");
 		// 컬렉션객체.iterator() 메소드로 Iterator 객체를 가져옴
 		Iterator<String> it = newMenuList.iterator();

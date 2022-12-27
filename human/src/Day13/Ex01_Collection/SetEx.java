@@ -1,6 +1,8 @@
 package Day13.Ex01_Collection;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /*
@@ -25,6 +27,7 @@ import java.util.Set;
 public class SetEx {
 	
 	public static void main(String[] args) {
+		
 		Set<Integer> set = new HashSet<>();
 		
 		// 1,2,3,4,5

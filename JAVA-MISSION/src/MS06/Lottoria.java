@@ -10,12 +10,14 @@ public class Lottoria {
       Scanner sc = new Scanner(System.in);
       System.out.print("몇 게임? ");
       int N = sc.nextInt();
+      
       for (int x = 0; x < N; x++) {
          System.out.print("[" + (x+1) + " 게임] : ");
          int[] lotto = new int[6];
          for (int i = 0; i < lotto.length; i++) {
-            int rand = (int) (Math.random()*45 + 1);
+            int rand = (int) (Math.random()*45 + 1); // 1 ~ 45
             lotto[i] = rand;
+            // 중복제거
             for (int j = 0; j < lotto.length; j++) {
                if( i == j ) continue;
                if( rand == lotto[j] ) {
@@ -24,8 +26,8 @@ public class Lottoria {
                }
             }
          }
-         
-         Arrays.sort(lotto);
+         // 오름차순 정렬
+         Arrays.sort(lotto);		
          
          for (int i = 0; i < lotto.length; i++) {
             System.out.print(lotto[i] + " ");

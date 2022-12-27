@@ -19,6 +19,7 @@ public class LinkedListEx {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		LinkedList<Board> boardList = new LinkedList<>();
+		
 		do {
 			System.out.println("1. 게시글 쓰기");
 			System.out.println("0. 종료");

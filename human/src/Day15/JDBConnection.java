@@ -13,11 +13,16 @@ public class JDBConnection {
 		try {
 			// JDBC 드라이버 로드
 			// MySQL
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			// Class.forName("com.mysql.cj.jdbc.Driver");
+			// Oracle
+			Class.forName("oracle.jdbc.OracleDriver");
 			// DB 에 연결
 			// URL:[PORT]/[스키마]?옵션파라미터
+			// Oracle
+			//String url ="jdbc:oracle:thin:@localhost:1521:xe"; // 11g
+			String url ="jdbc:oracle:thin:@localhost:1521:orcl"; // 12c이상
 			// MySQL
-			String url = "jdbc:mysql://localhost:3306/human?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false";
+			// String url = "jdbc:mysql://localhost:3306/human?serverTimezone=Asia/Seoul&allowPublicKeyRetrieval=true&useSSL=false";
 			String id = "human";
 			String pw = "123456";
 			

@@ -79,8 +79,13 @@ public class BoardDAO extends JDBConnection {
 	public int insert(Board board) {
 		
 		int result = 0;
+		
+		String sql = " INSERT INTO board ( board_no, title, writer, content ) "
+				+ " VALUES( SEQ_BOARD.nextval, ?, ?, ? ) ";
+		/* mysql
 		String sql = " INSERT INTO board ( title, writer, content ) "
 				   + " VALUES( ?, ?, ? ) ";
+		*/
 		
 		try {
 			psmt = con.prepareStatement(sql);		// 쿼리문 생성
