@@ -1,2 +1,2 @@
 # JAVA_KHM
-휴먼교육센터 자바 과정
+ALOHA CLASS 자바 과정
